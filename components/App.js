@@ -3,8 +3,6 @@ import './App.less'
 
 import ButtonContainer from './ButtonContainer'
 
-import { connect } from 'react-redux'
-
 class App extends Component {
   render() {
     const { clickButton, clicked } = this.props
